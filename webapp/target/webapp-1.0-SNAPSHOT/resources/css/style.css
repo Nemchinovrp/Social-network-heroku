@@ -1,0 +1,19 @@
+a.ui-slider-handle {
+    text-decoration: none;
+    background: #FFFFFF linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.08) 80%) !important;
+    border-raduis: 50% 50% 50% 50%;
+    height: 15px !important;
+    width: 15px !important;
+    position: relative;
+    top: -15px !important;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a.ui-slider-handle span {
+    line-height: 15px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

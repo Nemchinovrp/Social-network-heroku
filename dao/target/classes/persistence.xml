@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns="http://java.sun.com/xml/ns/persistence"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence.xsd">
+    <persistence-unit name="default">
+        <class>com.getjavajob.training.web1610.common.Account</class>
+        <class>com.getjavajob.training.web1610.common.Group</class>
+        <class>com.getjavajob.training.web1610.common.Phone</class>
+        <class>com.getjavajob.training.web1610.common.Friendship</class>
+        <class>com.getjavajob.training.web1610.common.Status</class>
+        <class>com.getjavajob.training.web1610.common.Group</class>
+        <properties>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.enable_lazy_load_no_trans" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
